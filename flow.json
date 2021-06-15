@@ -1,1 +1,65 @@
-[]
+[
+    {
+        "id": "c2f563fe.0aae8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f7e4000c.3834f",
+        "type": "inject",
+        "z": "c2f563fe.0aae8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "7a26cd25.77c7a4"
+            ]
+        ]
+    },
+    {
+        "id": "7a26cd25.77c7a4",
+        "type": "debug",
+        "z": "c2f563fe.0aae8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "91cf59e9.1600e8",
+        "type": "comment",
+        "z": "c2f563fe.0aae8",
+        "name": "Comment",
+        "info": "This is a comment",
+        "x": 500,
+        "y": 200,
+        "wires": [],
+        "icon": "font-awesome/fa-envelope-open"
+    }
+]
